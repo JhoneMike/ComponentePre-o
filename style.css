@@ -1,0 +1,37 @@
+html, body{
+    width: 100%;
+}
+
+body{
+    width: 940px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: inset black;
+    margin: 250px auto 0 auto;
+}
+
+.join{
+    
+}
+
+.join h1{
+    font-size: 22px;
+    color: hsl(179, 62%, 43%);
+}
+
+.join h2{
+    font-size: 20px;
+    color:  hsl(71, 73%, 54%);
+}
+
+.join p{
+    color: hsl(204, 43%, 93%)
+}
+
+main div{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+
