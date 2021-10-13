@@ -6,7 +6,7 @@ body{
     width: 940px;
     border: 2px solid white;
     border-radius: 20px;
-    box-shadow: inset black;
+    box-shadow: inset 0 0 1px #000000;
     margin: 250px auto 0 auto;
 }
 
@@ -16,16 +16,21 @@ body{
 
 .join h1{
     font-size: 22px;
-    color: hsl(179, 62%, 43%);
+    color: hsl(179, 78%, 47%);
+    margin: 50px 0 30px 45px;
+    font-weight: bold;
 }
 
 .join h2{
     font-size: 20px;
     color:  hsl(71, 73%, 54%);
+    margin: 50px 0 10px 45px;
+    font-weight: bold;
 }
 
 .join p{
-    color: hsl(204, 43%, 93%)
+    color: hsl(0, 0%, 70%);
+    margin: 50px 45px 30px 45px;
 }
 
 main div{
@@ -34,4 +39,12 @@ main div{
     box-sizing: border-box;
 }
 
+.sing-up{
+    background: hsl(179, 58%, 48%);
+    padding: 29px;
+}
 
+.why-us{
+    background: hsl(179, 81%, 62%);
+    /*padding: 71px;*/
+}
