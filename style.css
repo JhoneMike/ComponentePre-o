@@ -41,10 +41,23 @@ main div{
 
 .sing-up{
     background: hsl(179, 58%, 48%);
-    padding: 29px;
+    padding: 60px;
+    color: #FFFFFF;
+    border-radius: 0px 0px 0px 25px;
+}
+
+.sing-up h2{
+    font-size: 22px;
+    padding: 15px auto 15px;
 }
 
 .why-us{
     background: hsl(179, 81%, 62%);
-    /*padding: 71px;*/
+    color: #FFFFFF;
+    border-radius: 0px 0px 25px 0px;
+    padding: 31px;
+}
+
+.why-us h2{
+    font-size: 22px;
 }
