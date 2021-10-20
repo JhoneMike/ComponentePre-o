@@ -3,15 +3,16 @@ html, body{
 }
 
 body{
-    width: 940px;
-    border: 2px solid white;
-    border-radius: 20px;
-    box-shadow: inset 0 0 1px #000000;
+    width: 1040px;
+    border: 0.5px solid white;
+    border-radius: 20px 20px 0 0;
     margin: 250px auto 0 auto;
+    box-shadow: inset 0 0 1px #000000;
+    
 }
 
 .join{
-    
+     
 }
 
 .join h1{
@@ -24,13 +25,15 @@ body{
 .join h2{
     font-size: 20px;
     color:  hsl(71, 73%, 54%);
-    margin: 50px 0 10px 45px;
+    margin-left: 45px;
     font-weight: bold;
 }
 
 .join p{
     color: hsl(0, 0%, 70%);
-    margin: 50px 45px 30px 45px;
+    margin: 20px 65px 35px 45px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
 }
 
 main div{
@@ -43,21 +46,68 @@ main div{
     background: hsl(179, 58%, 48%);
     padding: 60px;
     color: #FFFFFF;
-    border-radius: 0px 0px 0px 25px;
+    border-radius: 0px 0px 0px 15px;
+    box-shadow: inset 0 0 1px #000000;
+    
 }
 
 .sing-up h2{
     font-size: 22px;
-    padding: 15px auto 15px;
+    position: absolute;
+    margin-top: -39px;
+}
+
+#valor{
+    font-size: 35px;
+    display: inline-block;
+}
+
+#por-mes{
+    font-size: 18px;
+    position: absolute;
+    display: inline;
+    margin: 15px 10px 10px 10px;
+    opacity: 0.5;
+}
+
+.sing-up p{
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+    letter-spacing: 0.5px;
+}
+
+.sing-up .enviar{
+    color: #FFFFFF;
+    background: hsl(71, 73%, 54%);
+    border-radius: 5px;   
+    border: none; 
+    width: 73%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .why-us{
     background: hsl(179, 81%, 62%);
     color: #FFFFFF;
-    border-radius: 0px 0px 25px 0px;
-    padding: 31px;
+    border-radius: 0px 0px 15px 0px;
+    padding: 38px;
+    box-shadow: inset 0 0 1px #000000;
 }
 
 .why-us h2{
     font-size: 22px;
+    position: absolute;
+    margin-top: -17px;
+
+}
+
+.why-us ul{
+    margin-top: 41px;
+    opacity: 0.7;
+}
+
+.why-us ul p{
+    margin-top: 4px;
 }
