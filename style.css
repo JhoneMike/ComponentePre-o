@@ -11,10 +11,6 @@ body{
     
 }
 
-.join{
-     
-}
-
 .join h1{
     font-size: 22px;
     color: hsl(179, 78%, 47%);
@@ -110,4 +106,22 @@ main div{
 
 .why-us ul p{
     margin-top: 4px;
+}
+
+
+/*Responsividade*/
+@media screen and (max-width: 375px){
+    body, .sing-up{
+        width: auto;
+        margin-top: 0;
+    }
+
+    .why-us{
+        width: 100%;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .sing-up{
+        border-radius: 0px;
+    }
 }
